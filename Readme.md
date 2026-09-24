@@ -451,20 +451,17 @@ $$
 🏷️   
 
 #### Status & Progress
-✅ ✔️ ☑️ (Done/Success)
-❌ ✖️ (Failed/Error)
-⚠️ ⚡ 🔥 (Warning/Critical)
-⏳ ⌛ (In Progress)
-🚀 (Launch/Deploy)
-🔄 ♻️ (Reload/Refresh)
-⏸️ (Pause)
-⏭️ (Skip)
+✅ ✔️ ☑️ 
+❌ ✖️  
+⚠️ ⚡ 🔥 
+⏳ ⌛ 🚀   
+🔄 ♻️ ⏸️⏭️
 
 #### Priority & Importance
 🔴 🔵 🟢 🟡 🟠  
-⭐ ⭐⭐⭐⭐  
-🔝  
-❗ ❓ ❔ ℹ️ 
+🌟 ⭐⭐⭐⭐  
+🔹💠𖢻 ✦  
+🔝❗❓❔ℹ️ 
 
 #### Testing & Quality
 ✅  
@@ -480,6 +477,7 @@ $$
 
 #### Other Useful
 📌 📍🔗 📎 📧 📞 ✉️ 🎁 🗑️ ⚡ 🌟
+💧💎
 
 ---
 
