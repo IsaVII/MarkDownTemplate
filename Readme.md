@@ -11,7 +11,8 @@
 8. [Tables](#tables)
 9. [Task Lists](#task-lists)
 10. [Inline HTML](#inline-html)
-11. [Special Elements](#special-elements)
+11. [Flow Chart](#Flow-Chart)
+12. [Special Elements](#special-elements)
 
 ---
 
@@ -314,6 +315,35 @@ This is a <span style="color: red;">red text</span> using span.
 <div style="background-color: lightblue; padding: 10px;">
 This is a div element with styling.
 </div>
+
+---
+
+## Flow-Chart
+```mermaid
+flowchart TD
+  start([Start/End]):::term ~~~ io[/Input/Output/]:::io ~~~ proc[Process/Action]:::proc ~~~ dec{Decision}:::dec ~~~ pre[[Predefined Process]]:::pre ~~~ conn((Connector)):::conn ~~~ Arrow_Label[Arrow Line]:::label
+  Arrow_Label ~~~ Arrow_End[ ]:::hide
+  Arrow_Label --> Arrow_End
+
+  classDef term fill:#e3f2fd,stroke:#90caf9,color:#333,stroke-width:1px;
+  classDef io fill:#fff3e0,stroke:#ffcc80,color:#333,stroke-width:1px;
+  classDef proc fill:#e8f5e9,stroke:#a5d6a7,color:#333,stroke-width:1px;
+  classDef dec fill:#fde0dc,stroke:#f8bbd0,color:#333,stroke-width:1px;
+  classDef pre fill:#ede7f6,stroke:#b39ddb,color:#333,stroke-width:1px;
+  classDef conn fill:#f5f5f5,stroke:#bdbdbd,color:#333,stroke-width:1px;
+  classDef hide fill:none,stroke:none,color:none;
+  classDef label fill:none,stroke:none,color:#333,text-align:center;
+```
+
+```mermaid
+flowchart TD
+    A([Start]) --> B[/Enter Credentials/]
+    B --> C{Match?}
+    C -- No --> D[/Show Error/]
+    D --> B
+    C -- Yes --> E[/Access Granted/]
+    E --> F([End])
+```
 
 ---
 
