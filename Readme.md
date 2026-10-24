@@ -1,4 +1,4 @@
-# Markdown Complete Reference Guide
+# Markdown Reference Guide
 
 ## Table of Contents
 1. [Headings](#headings)
