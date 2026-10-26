@@ -11,8 +11,9 @@
 8. [Tables](#tables)
 9. [Task Lists](#task-lists)
 10. [Inline HTML](#inline-html)
-11. [Flow Chart](#Flow-Chart)
-12. [Special Elements](#special-elements)
+11. [Flow Chart](#flow-chart)
+12. [Class Diagram](#class-diagram)
+13. [Special Elements](#special-elements)
 
 ---
 
@@ -343,6 +344,21 @@ flowchart TD
     D --> B
     C -- Yes --> E[/Access Granted/]
     E --> F([End])
+```
+
+---
+
+## Class Diagram
+
+```mermaid
+classDiagram
+    class ClassName {
+        - privateField : Type
+        + publicField : Type
+        + ClassName(params)
+        + publicMethod() ReturnType
+        - privateMethod() void
+    }
 ```
 
 ---
